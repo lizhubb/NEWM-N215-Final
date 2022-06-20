@@ -1,0 +1,617 @@
+.navWrapper {
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    nav {
+        max-width: 980px;
+        height: 90px;
+        margin: 0 auto;
+        border-bottom: solid 2px white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            position: relative;
+            width: 92px;
+            height: 42px;
+            border: solid 2px white;
+            span {
+                position: absolute;
+                bottom: -5px;
+                color: white;
+                font-size: 20px;
+                font-family: GillSansReg;
+            }
+        }
+        .links {
+            width: 500px;
+            display: flex;
+            justify-content: space-around;
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 15px;
+                font-family: GillSansReg;
+            }
+            span {
+                color: #79ADDC;
+                
+            }
+        }
+    }
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5)), url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    .centered-content {
+        width: 700px;
+        text-align: center;
+        .travel-fly {
+            margin-top: 65px;
+            color: white;
+            font-size: 60px;
+            //font-family: ProximaNovaCond;
+            text-decoration: none;
+        }
+        .lorem {
+            font-size: 20px;
+            font-style: italic;
+            font-family: GillSansReg;
+            color: white;
+        }
+        button {
+            width: 121.62px;
+            height: 40.04px;
+            color: white;
+            background-color: #79ADDC;
+            font-size: 15px;
+            font-family: GillSansReg;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
+.learn-more {
+    max-width: 818px;
+    min-height: 304px;
+    margin: -50px auto -100px auto;
+    .images {
+        display: flex;
+        justify-content: space-between;
+        .image-one {
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+            .header {
+                text-align: center;
+                color: white;
+                font-size: 40px;
+                padding-top: 75px;
+            }
+            .from {
+                text-align: center;
+                color: white;
+                font-size: 20px;
+                padding-top: 5px;
+            }
+            button {
+                margin-top: 40px;
+                margin-left: 52px;
+                width: 133px;
+                height: 40px;
+                padding: 10px;
+                color: white;
+                background-color: #79ADDC;
+                border: none;
+                border-radius: 20px;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+        .image-two {
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            .header {
+                text-align: center;
+                color: white;
+                font-size: 40px;
+                padding-top: 75px;
+            }
+            .from {
+                text-align: center;
+                color: white;
+                font-size: 20px;
+                padding-top: 5px;
+            }
+            button {
+                margin-top: 40px;
+                margin-left: 52px;
+                width: 133px;
+                height: 40px;
+                padding: 10px;
+                color: white;
+                background-color: #79ADDC;
+                border: none;
+                border-radius: 20px;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+        .image-three {
+            width: 236px;
+            height: 304px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            .header {
+                text-align: center;
+                color: white;
+                font-size: 40px;
+                padding-top: 75px;
+            }
+            .from {
+                text-align: center;
+                color: white;
+                font-size: 20px;
+                padding-top: 5px;
+            }
+            button {
+                margin-top: 40px;
+                margin-left: 52px;
+                width: 133px;
+                height: 40px;
+                padding: 10px;
+                color: white;
+                background-color: #79ADDC;
+                border: none;
+                border-radius: 20px;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.booking-form {
+    max-width: 818px;
+    margin: 100px auto 0 auto;
+    .header {
+        font-size: 60px;
+    }
+    .form {
+        padding-top: 20px;
+        .input-wrapper {
+            max-width: 100%;
+            display: flex;
+            .name-field {
+                width: 344px;
+                padding: 10px;
+                outline: solid 1px #79ADDC;
+                border: none;
+                display: inline-block;
+                font-family: GillSansLight;
+            }
+            .email-field {
+                width: 453px;
+                padding: 10px;
+                margin-left: 20px;
+                outline: solid 1px #79ADDC;
+                border: none;
+                display: inline-block;
+                font-family: GillSansLight;
+            }
+        }
+        .input-wrapper-two {
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            .country-field {
+                width: 344px;
+                padding: 10px;
+                outline: solid 1px #79ADDC;
+                border: none;
+                display: inline-block;
+                font-family: GillSansLight;
+            }
+            .hotel-field {
+                width: 453px;
+                padding: 10px;
+                margin-left: 20px;
+                outline: solid 1px #79ADDC;
+                border: none;
+                display: inline-block;
+                font-family: GillSansLight;
+            } 
+        }
+        .input-wrapper-three {
+            margin-top: 20px;
+            width: 100%;
+            position: relative;
+            font-size: 18px;
+            font-family: GillSansLight;
+            .check-in {
+                width: 698px;
+                padding: 10px;
+                outline: solid 1px #79ADDC;
+                border: none;
+                margin-left: 50px;
+                font-family: GillSansLight;
+                box-sizing: border-box;
+            }
+            .icon {
+                position: absolute;
+                right: 10px;
+                top: 8px;
+                width: 18.99px;
+            }
+        }
+        .input-wrapper-four {
+            margin-top: 20px;
+            width: 100%;
+            position: relative;
+            font-size: 18px;
+            font-family: GillSansLight;
+            .check-out {
+                width: 698px;
+                padding: 10px;
+                outline: solid 1px #79ADDC;
+                border: none;
+                margin-left: 38px;
+                font-family: GillSansLight;
+                box-sizing: border-box;
+            }
+            .icon {
+                position: absolute;
+                right: 10px;
+                top: 8px;
+                width: 18.99px;
+            }
+        }
+        .input-wrapper-five {
+            margin-top: 20px;
+            width: 100%;
+            position: relative;
+            display: inline-flex;
+            font-size: 18px;
+            font-family: GillSansLight;
+            justify-content: space-between;
+            .adult-holder {
+                font-family: GillSansLight;
+                width: 224px;
+                .adult {
+                    margin-left: 75px;
+                    width: 103px;
+                    padding: 10px;
+                    outline: solid 1px #79ADDC;
+                    border: none;
+                    font-family: GillSansLight;
+                    box-sizing: border-box;
+                } 
+            }
+            .children-holder {
+                font-family: GillSansLight;
+                width: 224px;
+                .children {
+                    margin-left: 55px;
+                    width: 103px;
+                    padding: 10px;
+                    outline: solid 1px #79ADDC;
+                    border: none;
+                    font-family: GillSansLight;
+                    box-sizing: border-box;
+                }
+            }
+            .rooms-holder {
+                font-family: GillSansLight;
+                width: 224px;
+                .rooms {
+                    margin-left: 65px;
+                    width: 103px;
+                    padding: 10px;
+                    outline: solid 1px #79ADDC;
+                    border: none;
+                    font-family: GillSansLight;
+                    box-sizing: border-box;
+                }
+            }
+            .icon1 {
+                position: absolute;
+                top: 5px;
+                left: 200px;
+            }
+            .icon2 {
+                position: absolute;
+                top: 5px;
+                right: 310px;
+            }
+            .icon3 {
+                position: absolute;
+                right: 10px;
+                top: 5px;
+            }
+        }
+        .input-wrapper-six {
+            margin-top: 20px;
+            width: 100%;
+            height: 192px;
+            padding: 10px;
+            outline: solid 1px #79ADDC;
+
+            .message {
+                font-family: GillSansLight;
+                border: none;
+            }
+        }
+    }
+    button {
+        margin-top: 30px;
+        margin-bottom: 70px;
+        background-color: #79ADDC;
+        color: white;
+        border: none;
+        padding: 15px;
+        width: 100%;
+        font-family: GillSansLight;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+}
+
+footer {
+    max-width: 100%;
+    min-height: 100px;
+    background-color: #79ADDC;
+    position: relative;
+    .centered-content {
+        padding-top: 25px;
+        max-width: 980px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo {
+            position: relative;
+            width: 92px;
+            height: 42px;
+            border: solid 2px white;
+            span {
+                position: absolute;
+                bottom: -5px;
+                color: white;
+                font-size: 20px;
+                font-family: GillSansReg;
+            }
+        }
+        .copyright {
+            padding-top: 20px;
+            color: white;
+            font-size: 12px;
+        }
+        .social-media {
+            width: 112px;
+            display: flex;
+            justify-content: space-between;
+            .icon {
+                height: 22.96px;
+                width: 22.96px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media only all and (max-width: 980px) {
+    .navWrapper {
+        nav {
+            padding: 0 30px;
+        }
+    }
+}
+
+@media only all and (max-width:490px) {
+    .navWrapper {
+        nav {
+            .logo {
+                margin: 0 auto;
+            }
+            .links {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only all and (max-width: 980px) {
+    footer {
+        padding: 0 30px;
+    }
+}
+
+@media only all and (max-width: 510px) {
+    footer {
+        padding: 0 30px 25px 30px;
+        .centered-content {
+            width: 300px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+    }
+}
+
+@media only all and (max-width: 980px) {
+    .aboutNavWrapper {
+        nav {
+            padding: 0 30px;
+        }
+    }
+}
+
+@media only all and (max-width: 490px) {
+    .aboutNavWrapper {
+        nav {
+            .logo {
+                margin: 0 auto;
+            }
+            .links {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only all and (max-width: 681px) {
+    .hero {
+        .centered-content {
+            .travel-fly {
+                margin-bottom: -30px;
+            }
+            .lorem {
+                margin-bottom: -30px;
+            }
+        }
+    }
+}
+
+@media only all and (max-width: 425px) {
+    .hero {
+        .centered-content {
+            width: 400px;
+            .travel-fly {
+                margin-bottom: -40px;
+            }
+            .lorem {
+                width: 400px;
+                margin-bottom: -40px;
+            }
+        }
+    }
+}
+
+@media only all and (max-width: 1034px) {
+    .learn-more {
+        .images {
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 236px;
+            margin: 0 auto;
+            .image-one {
+                margin-bottom: 20px;
+            }
+            .image-two {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only all and (max-width: 850px) {
+    .booking-form {
+        padding: 50px;
+        .input-wrapper-three {
+            margin-left: 0px;
+            display: flex;
+            position: relative;
+        }
+        .input-wrapper-four {
+            margin-left: 0px;
+            display: flex;
+            position: relative;
+        }
+        .input-wrapper-five {
+            .icon1 {
+                display: none;
+            }
+            .icon2 {
+                display: none;
+            }
+            .icon3 {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only all and (max-width: 815px) {
+    .booking-form {
+        padding: 30px;
+        .input-wrapper-three {
+            margin-left: 0px;
+            display: flex;
+            position: relative;
+        }
+        .input-wrapper-four {
+            margin-left: 0px;
+            display: flex;
+            position: relative;
+        }
+        .input-wrapper-five {
+            .icon1 {
+                display: none;
+            }
+            .icon2 {
+                display: none;
+            }
+            .icon3 {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only all and (max-width: 700px) {
+    .booking-form {
+        padding: 10px;
+        .input-wrapper-three {
+            margin-left: 0px;
+            display: flex;
+            position: relative;
+        }
+        .input-wrapper-four {
+            margin-left: 0px;
+            display: flex;
+            position: relative;
+        }
+        .input-wrapper-five {
+            flex-wrap: wrap;
+            flex-direction: column;
+            .adult-holder {
+                margin-bottom: 20px;
+            }
+            .children-holder {
+                margin-bottom: 20px;
+                box-sizing: border-box;
+            }
+            .rooms-holder {
+                box-sizing: border-box;
+            }
+            .icon1 {
+                display: none;
+            }
+            .icon2 {
+                display: none;
+            }
+            .icon3 {
+                display: none;
+            }
+        }
+    }
+}

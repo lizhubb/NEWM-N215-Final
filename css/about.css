@@ -1,0 +1,50 @@
+.aboutNavWrapper {
+  height: 90px;
+  width: 100%;
+  position: absolute;
+}
+.aboutNavWrapper nav {
+  max-width: 980px;
+  height: 90px;
+  margin: 0 auto;
+  border-bottom: solid 2px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.aboutNavWrapper nav .logo {
+  position: relative;
+  width: 92px;
+  height: 42px;
+  border: solid 2px black;
+}
+.aboutNavWrapper nav .logo span {
+  position: absolute;
+  bottom: -5px;
+  color: black;
+  font-size: 20px;
+  font-family: GillSansReg;
+}
+.aboutNavWrapper nav .links {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.aboutNavWrapper nav .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: GillSansReg;
+}
+.aboutNavWrapper nav .links span {
+  color: #79ADDC;
+}

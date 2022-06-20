@@ -1,0 +1,228 @@
+.aboutNavWrapper {
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    nav {
+        max-width: 980px;
+        height: 90px;
+        margin: 0 auto;
+        border-bottom: solid 2px black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            position: relative;
+            width: 92px;
+            height: 42px;
+            border: solid 2px black;
+            span {
+                position: absolute;
+                bottom: -5px;
+                color: black;
+                font-size: 20px;
+                font-family: GillSansReg;
+            }
+        }
+        .links {
+            width: 500px;
+            display: flex;
+            justify-content: space-around;
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 15px;
+                font-family: GillSansReg;
+            }
+            span {
+                color: #79ADDC;
+                
+            }
+        }
+    }
+}
+
+.about-section {
+    .header {
+        font-size: 60px;
+        padding-left: 100px;
+        position: relative;
+        letter-spacing: 10px;
+        .border {
+            border-bottom: 2px solid black;
+            width: 17%;
+            position: absolute;
+            left: 100px;
+            bottom: -5px;
+        }
+    }
+    .lorem {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 30px;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+}
+
+.client-quotes {
+    min-height: 650px;
+    max-width: 722px;
+    .header {
+        position: relative;
+        font-size: 40px;
+        padding-left: 100px;
+        letter-spacing: 5px;
+        margin-top: 50px;
+        .border {
+            border-bottom: 2px solid black;
+            width: 40%;
+            position: absolute;
+            left: 100px;
+            bottom: -7px;
+        }
+    }
+    .miranda {
+        max-width: 980px;
+        min-height: 150px;
+        margin-top: 40px;
+        padding-left: 100px;
+        display: flex;
+        position: relative;
+        .miranda-image {
+            width: 260px;
+            height: 150px;
+            background-image: url(../images/about-client-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .lorem {
+            padding-left: 30px;
+            width: 440px;
+            height: 170px;
+            .paragraph {
+                position: absolute;
+                top: 0;
+                font-style: italic;
+                font-size: 16px;
+                letter-spacing: 0.5px;
+            }
+            .name {
+                font-size: 20px;
+                color: #79ADDC;
+                letter-spacing: 0.5px;
+                position: absolute;
+                right: -30px;
+                bottom: 0;
+            }
+        }
+    }
+    .johnathan {
+        max-width: 722px;
+        min-height: 150px;
+        margin-top: 30px;
+        padding-left: 100px;
+        display: flex;
+        position: relative;
+        .johnathan-image {
+            width: 260px;
+            height: 150px;
+            background-image: url(../images/about-client-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .lorem {
+            padding-left: 30px;
+            width: 440px;
+            height: 165px;
+            .paragraph {
+                position: absolute;
+                top: 0;
+                font-style: italic;
+                font-size: 16px;
+                letter-spacing: 0.5px;
+            }
+            .name {
+                font-size: 20px;
+                color: #79ADDC;
+                letter-spacing: 0.5px;
+                position: absolute;
+                right: -30px;
+                bottom: 0;
+            }
+        }
+    }
+}
+
+@media only all and (max-width: 790px) {
+    .about-section {
+        width: 400px;
+        margin: 0 auto;
+    }
+    .client-quotes {
+        width: 400px;
+        margin: 0 auto;
+        .miranda {
+            padding-left: 0px;
+            margin: 40px 65px 20px 65px;
+            width: 400px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            .miranda-image {
+                width: 260px;
+            }
+            .lorem {
+                padding-left: none;
+                width: 400px;
+                margin: 0 auto;
+                .paragraph {
+                    width: 300px;
+                    top: 190px;
+                    left: 0px;
+                }
+                .name {
+                    right: 110px;
+                    bottom: -35px;
+                }
+            }
+        }
+        .johnathan {
+            padding-left: 0px;
+            margin: 40px 65px 50px 65px;
+            width: 400px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            .johnathan-image {
+                width: 260px;
+            }
+            .lorem {
+                padding-left: none;
+                width: 400px;
+                margin: 0 auto;
+                .paragraph {
+                    width: 300px;
+                    top: 190px;
+                    left: 0px;
+                }
+                .name {
+                    right: 110px;
+                    bottom: -35px;
+                }
+            }
+        }
+    }
+}
+
+@media only all and (max-width: 490px) {
+    .aboutNavWrapper {
+        nav {
+            .logo {
+                margin: 0 auto;
+            }
+            .links {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,210 @@
+.special-offers {
+    max-width: 980px;
+    .header {
+        position: relative;
+        font-size: 30px;
+        padding-left: 100px;
+        letter-spacing: 5px;
+        margin-top: 100px;
+        .border {
+            border-bottom: 2px solid black;
+            width: 30%;
+            position: absolute;
+            left: 100px;
+            bottom: -5px;
+        }
+    }
+}
+
+.row {
+    max-width: 980px;
+    min-height: 287px;
+    margin: 50px auto;
+    display: flex;
+    .one {
+        max-width: 199px;
+        min-height: 287px;
+        .image {
+            height: 287px;
+            width: 199px;
+            background-image: url(../images/special-offer-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    .two {
+        max-width: 430px;
+        min-height: 287px;
+        padding-left: 20px;
+        position: relative;
+        .text {
+            .spain {
+                font-size: 30px;
+                position: relative;
+                span {
+                    color: #FF7D38;
+                    font-size: 20px;
+                }
+                .border {
+                    border-bottom: 2px solid black;
+                    width: 50%;
+                    position: absolute;
+                    bottom: -5px;
+                }
+            }
+            .lorem {
+                max-width: 340px;
+                padding-left: 0px;
+                padding-top: 20px;
+                .paragraph {
+                    font-size: 16px;
+                    font-family: GillSansLight;
+                }
+            }
+        }
+        button {
+            width: 133px;
+            height: 40px;
+            position: absolute;
+            bottom: 0;
+            border: none;
+            border-radius: 20px;
+            padding: 10px;
+            color: white;
+            background-color: #79ADDC;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+    }
+}
+
+.row2 {
+    max-width: 980px;
+    min-height: 287px;
+    margin: 50px auto;
+    display: flex;
+    padding-bottom: 40px;
+    .one {
+        max-width: 199px;
+        min-height: 287px;
+        .image {
+            height: 287px;
+            width: 199px;
+            background-image: url(../images/special-offer-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    .two {
+        max-width: 430px;
+        min-height: 287px;
+        padding-left: 20px;
+        position: relative;
+        .text {
+            .spain {
+                font-size: 30px;
+                position: relative;
+                span {
+                    color: #FF7D38;
+                    font-size: 20px;
+                }
+                .border {
+                    border-bottom: 2px solid black;
+                    width: 50%;
+                    position: absolute;
+                    bottom: -5px;
+                }
+            }
+            .lorem {
+                max-width: 340px;
+                padding-left: 0px;
+                padding-top: 20px;
+                .paragraph {
+                    font-size: 16px;
+                    font-family: GillSansLight;
+                }
+            }
+        }
+        button {
+            width: 133px;
+            height: 40px;
+            position: absolute;
+            bottom: 0;
+            border: none;
+            border-radius: 20px;
+            padding: 10px;
+            color: white;
+            background-color: #79ADDC;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+    }
+}
+
+@media only all and (max-width: 650px) {
+    .row {
+        width: 300px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        .one {
+            width: 199px;
+            margin: 0 auto;
+        }
+        .two {
+            width: 300px;
+            margin: 20px auto;
+            .text {
+                .spain {
+                    position: relative;
+                    .border {
+                        bottom: 30px;
+                        position: absolute;
+                    }
+                }
+                .lorem {
+                    width: 300px;
+                    margin: 0 auto;
+                    button {
+                        width: 133px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .row2 {
+        width: 300px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        .one {
+            width: 199px;
+            margin: 0 auto;
+        }
+        .two {
+            width: 300px;
+            margin: 20px auto;
+            .text {
+                .spain {
+                    position: relative;
+                    .border {
+                        bottom: -5px;
+                        position: absolute;
+                    }
+                }
+                .lorem {
+                    width: 300px;
+                    margin: 0 auto;
+                    button {
+                        width: 133px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}

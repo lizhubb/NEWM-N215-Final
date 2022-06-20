@@ -1,0 +1,972 @@
+.israel-hero {
+    width: 980px;
+    height: 413px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .centered-content {
+        position: relative;
+        .tour-package {
+            font-size: 80px;
+            color: white;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .starting-from {
+            position: absolute;
+            bottom: -305px;
+            right: 10px;
+            color: white;
+            font-size: 30px;
+        }
+    }
+}
+
+.images {
+    max-width: 980px;
+    min-height: 347px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        .image-one{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-two{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-three{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+    }
+}
+
+.usa-hero {
+    width: 980px;
+    height: 413px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .centered-content {
+        position: relative;
+        .tour-package {
+            font-size: 80px;
+            color: white;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .starting-from {
+            position: absolute;
+            bottom: -305px;
+            right: 10px;
+            color: white;
+            font-size: 30px;
+        }
+    }
+}
+
+.usa-images {
+    max-width: 980px;
+    min-height: 347px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        .image-one{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-two{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-three{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+    }
+}
+
+.australia-hero {
+    width: 980px;
+    height: 413px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .centered-content {
+        position: relative;
+        .tour-package {
+            font-size: 80px;
+            color: white;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .starting-from {
+            position: absolute;
+            bottom: -305px;
+            right: 10px;
+            color: white;
+            font-size: 30px;
+        }
+    }
+}
+
+.aus-images {
+    max-width: 980px;
+    min-height: 347px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        .image-one{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-two{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-three{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+    }
+}
+
+.nz-hero {
+    width: 980px;
+    height: 413px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .centered-content {
+        position: relative;
+        .tour-package {
+            font-size: 80px;
+            color: white;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .starting-from {
+            position: absolute;
+            bottom: -305px;
+            right: 10px;
+            color: white;
+            font-size: 30px;
+        }
+    }
+}
+
+.nz-images {
+    max-width: 980px;
+    min-height: 347px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        .image-one{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-two{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-three{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+    }
+}
+
+.france-hero {
+    width: 980px;
+    height: 413px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .centered-content {
+        position: relative;
+        .tour-package {
+            font-size: 80px;
+            color: white;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .starting-from {
+            position: absolute;
+            bottom: -305px;
+            right: 10px;
+            color: white;
+            font-size: 30px;
+        }
+    }
+}
+
+.france-images {
+    max-width: 980px;
+    min-height: 347px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        .image-one{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-two{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-three{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+    }
+}
+
+.egypt-hero {
+    width: 980px;
+    height: 413px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .centered-content {
+        position: relative;
+        .tour-package {
+            font-size: 80px;
+            color: white;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .starting-from {
+            position: absolute;
+            bottom: -305px;
+            right: 10px;
+            color: white;
+            font-size: 30px;
+        }
+    }
+}
+
+.egypt-images {
+    max-width: 980px;
+    min-height: 347px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        .image-one{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-two{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-three{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+    }
+}
+
+.japan-hero {
+    width: 980px;
+    height: 413px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .centered-content {
+        position: relative;
+        .tour-package {
+            font-size: 80px;
+            color: white;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .starting-from {
+            position: absolute;
+            bottom: -305px;
+            right: 10px;
+            color: white;
+            font-size: 30px;
+        }
+    }
+}
+
+.japan-images {
+    max-width: 980px;
+    min-height: 347px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        .image-one{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-two{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-three{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+    }
+}
+
+.canada-hero {
+    width: 980px;
+    height: 413px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .centered-content {
+        position: relative;
+        .tour-package {
+            font-size: 80px;
+            color: white;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .starting-from {
+            position: absolute;
+            bottom: -305px;
+            right: 10px;
+            color: white;
+            font-size: 30px;
+        }
+    }
+}
+
+.canada-images {
+    max-width: 980px;
+    min-height: 347px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        .image-one{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-two{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-three{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+    }
+}
+
+.uae-hero {
+    width: 980px;
+    height: 413px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .centered-content {
+        position: relative;
+        .tour-package {
+            font-size: 80px;
+            color: white;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .starting-from {
+            position: absolute;
+            bottom: -305px;
+            right: 10px;
+            color: white;
+            font-size: 30px;
+        }
+    }
+}
+
+.uae-images {
+    max-width: 980px;
+    min-height: 347px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        .image-one{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-two{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+        .image-three{
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            justify-content: center;
+        }
+    }
+}
+
+.day-1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    .header {
+        font-size: 60px;
+        .border {
+            border-bottom: 2px solid black;
+            width: 12%;
+            position: absolute;
+            left: 100px;
+            bottom: 0px;
+        }
+    }
+}
+
+.lorem {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 16px;
+}
+
+.lorem1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    font-size: 16px;
+}
+
+.day-2 {
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    .header {
+        font-size: 60px;
+        .border {
+            border-bottom: 2px solid black;
+            width: 12%;
+            position: absolute;
+            left: 100px;
+            bottom: 0px;
+        }
+    }
+}
+
+.day-3 {
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    .header {
+        font-size: 60px;
+        .border {
+            border-bottom: 2px solid black;
+            width: 12%;
+            position: absolute;
+            left: 100px;
+            bottom: 0px;
+        }
+    }
+}
+
+.button {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 133px;
+    margin: 0 auto;
+    button {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+        color: white;
+        background-color: #79ADDC;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
+
+@media only all and (max-width: 1030px) {
+    .israel-hero {
+        width: 300px;
+        .centered-content {
+            .starting-from{
+                color: black;
+                text-align: center;
+                width: 300px;
+                margin: 0 auto;
+                right: 0;
+                bottom: -215px;
+            }
+        }
+    }
+    .images {
+        width: 300px;
+        margin: 0 auto;
+        .row {
+            flex-wrap: wrap;
+            flex-direction: column;
+            .image-one {
+                width: 298px;
+                margin: 70px auto 20px auto;
+            }
+            .image-two {
+                width: 298px;
+                margin: 0px auto;
+            }
+            .image-three {
+                width: 298px;
+                margin: 20px auto;
+            }
+        }
+    }
+
+    .usa-hero {
+        width: 300px;
+        .centered-content {
+            .starting-from{
+                color: black;
+                text-align: center;
+                width: 300px;
+                margin: 0 auto;
+                right: 0;
+                bottom: -215px;
+            }
+        }
+    }
+    .usa-images {
+        width: 300px;
+        margin: 0 auto;
+        .row {
+            flex-wrap: wrap;
+            flex-direction: column;
+            .image-one {
+                width: 298px;
+                margin: 70px auto 20px auto;
+            }
+            .image-two {
+                width: 298px;
+                margin: 0px auto;
+            }
+            .image-three {
+                width: 298px;
+                margin: 20px auto;
+            }
+        }
+    }
+
+    .australia-hero {
+        width: 315px;
+        .centered-content {
+            .starting-from{
+                color: black;
+                text-align: center;
+                width: 315px;
+                margin: 0 auto;
+                right: 0;
+                bottom: -215px;
+            }
+        }
+    }
+    .aus-images {
+        width: 315px;
+        margin: 0 auto;
+        .row {
+            flex-wrap: wrap;
+            flex-direction: column;
+            .image-one {
+                width: 298px;
+                margin: 70px auto 20px auto;
+            }
+            .image-two {
+                width: 298px;
+                margin: 0px auto;
+            }
+            .image-three {
+                width: 298px;
+                margin: 20px auto;
+            }
+        }
+    }
+
+    .nz-hero {
+        width: 300px;
+        .centered-content {
+            .starting-from{
+                color: black;
+                text-align: center;
+                width: 300px;
+                margin: 0 auto;
+                right: 0;
+                bottom: -125px;
+            }
+        }
+    }
+    .nz-images {
+        width: 300px;
+        margin: 0 auto;
+        .row {
+            flex-wrap: wrap;
+            flex-direction: column;
+            .image-one {
+                width: 298px;
+                margin: 70px auto 20px auto;
+            }
+            .image-two {
+                width: 298px;
+                margin: 0px auto;
+            }
+            .image-three {
+                width: 298px;
+                margin: 20px auto;
+            }
+        }
+    }
+
+    .france-hero {
+        width: 300px;
+        .centered-content {
+            .starting-from{
+                color: black;
+                text-align: center;
+                width: 300px;
+                margin: 0 auto;
+                right: 0;
+                bottom: -215px;
+            }
+        }
+    }
+    .france-images {
+        width: 300px;
+        margin: 0 auto;
+        .row {
+            flex-wrap: wrap;
+            flex-direction: column;
+            .image-one {
+                width: 298px;
+                margin: 70px auto 20px auto;
+            }
+            .image-two {
+                width: 298px;
+                margin: 0px auto;
+            }
+            .image-three {
+                width: 298px;
+                margin: 20px auto;
+            }
+        }
+    }
+
+    .egypt-hero {
+        width: 300px;
+        .centered-content {
+            .starting-from{
+                color: black;
+                text-align: center;
+                width: 300px;
+                margin: 0 auto;
+                right: 0;
+                bottom: -215px;
+            }
+        }
+    }
+    .egypt-images {
+        width: 300px;
+        margin: 0 auto;
+        .row {
+            flex-wrap: wrap;
+            flex-direction: column;
+            .image-one {
+                width: 298px;
+                margin: 70px auto 20px auto;
+            }
+            .image-two {
+                width: 298px;
+                margin: 0px auto;
+            }
+            .image-three {
+                width: 298px;
+                margin: 20px auto;
+            }
+        }
+    }
+
+    .japan-hero {
+        width: 300px;
+        .centered-content {
+            .starting-from{
+                color: black;
+                text-align: center;
+                width: 300px;
+                margin: 0 auto;
+                right: 0;
+                bottom: -215px;
+            }
+        }
+    }
+    .japan-images {
+        width: 300px;
+        margin: 0 auto;
+        .row {
+            flex-wrap: wrap;
+            flex-direction: column;
+            .image-one {
+                width: 298px;
+                margin: 70px auto 20px auto;
+            }
+            .image-two {
+                width: 298px;
+                margin: 0px auto;
+            }
+            .image-three {
+                width: 298px;
+                margin: 20px auto;
+            }
+        }
+    }
+
+    .canada-hero {
+        width: 300px;
+        .centered-content {
+            .starting-from{
+                color: black;
+                text-align: center;
+                width: 300px;
+                margin: 0 auto;
+                right: 0;
+                bottom: -215px;
+            }
+        }
+    }
+    .canada-images {
+        width: 300px;
+        margin: 0 auto;
+        .row {
+            flex-wrap: wrap;
+            flex-direction: column;
+            .image-one {
+                width: 298px;
+                margin: 70px auto 20px auto;
+            }
+            .image-two {
+                width: 298px;
+                margin: 0px auto;
+            }
+            .image-three {
+                width: 298px;
+                margin: 20px auto;
+            }
+        }
+    }
+
+    .uae-hero {
+        width: 300px;
+        .centered-content {
+            .starting-from{
+                color: black;
+                text-align: center;
+                width: 300px;
+                margin: 0 auto;
+                right: 0;
+                bottom: -215px;
+            }
+        }
+    }
+    .uae-images {
+        width: 300px;
+        margin: 0 auto;
+        .row {
+            flex-wrap: wrap;
+            flex-direction: column;
+            .image-one {
+                width: 298px;
+                margin: 70px auto 20px auto;
+            }
+            .image-two {
+                width: 298px;
+                margin: 0px auto;
+            }
+            .image-three {
+                width: 298px;
+                margin: 20px auto;
+            }
+        }
+    }
+}

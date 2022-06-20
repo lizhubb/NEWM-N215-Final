@@ -1,0 +1,76 @@
+.special-offers {
+  height: 650px;
+  width: 722px;
+}
+.special-offers .header {
+  position: relative;
+  font-size: 40px;
+  padding-left: 100px;
+  letter-spacing: 5px;
+  margin-top: 100px;
+}
+.special-offers .border {
+  border-bottom: 2px solid black;
+  width: 24%;
+  position: absolute;
+  left: 100px;
+  bottom: 200px;
+}
+.special-offers .miranda {
+  width: 722px;
+  height: 150px;
+  margin-top: 40px;
+  padding-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.special-offers .miranda .image {
+  width: 260px;
+}
+.special-offers .miranda .lorem {
+  padding-left: 30px;
+}
+.special-offers .miranda .lorem .paragraph {
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.special-offers .miranda .lorem .name {
+  font-size: 20px;
+  color: #79ADDC;
+  letter-spacing: 0.5px;
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+}
+.special-offers .johnathan {
+  width: 722px;
+  height: 150px;
+  margin-top: 70px;
+  padding-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.special-offers .johnathan .image {
+  width: 260px;
+}
+.special-offers .johnathan .lorem {
+  padding-left: 30px;
+}
+.special-offers .johnathan .lorem .paragraph {
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.special-offers .johnathan .lorem .name {
+  font-size: 20px;
+  color: #79ADDC;
+  letter-spacing: 0.5px;
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+}

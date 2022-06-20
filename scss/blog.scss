@@ -1,0 +1,107 @@
+.blog-header {
+    .header {
+        font-size: 30px;
+        padding-left: 100px;
+        position: relative;
+        letter-spacing: 5px;
+    }
+    .border {
+        border-bottom: 2px solid black;
+        width: 12%;
+        position: absolute;
+        left: 100px;
+        bottom: -7px;
+    }
+}
+
+.blog-section {
+    max-width: 980px;
+    min-height: 259px;
+    padding-top: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .date {
+        width: 60px;
+        height: 60px;
+        background-color: #79ADDC;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        span {
+            font-size: 22px;
+            text-align: center;
+        }
+        .month {
+            font-size: 12px;
+        }
+    } 
+    .blog-image {
+        background-image: url(../images/blog.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 900px;
+        height: 259px;
+    }
+}
+
+.blog-text {
+    max-width: 650px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    .lorem {
+        .header {
+            font-size: 15px;
+        }
+        .text {
+            color: #79ADDC;
+            font-size: 13px;
+        }
+    }
+}
+
+@media only all and (max-width: 980px) {
+    .blog-section {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 500px;
+        margin: 0 auto;
+        .date {
+            width: 60px;
+            margin: 0 auto 20px;
+        }
+        .blog-image {
+            width: 500px;
+            margin: 0 auto;
+        }
+    }
+    .blog-text {
+        width: 500px;
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+}
+
+@media only all and (max-width: 570px) {
+    .blog-section {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 300px;
+        margin: 0 auto;
+        .date {
+            width: 60px;
+            margin: 0 auto 20px;
+        }
+        .blog-image {
+            width: 300px;
+            margin: 0 auto;
+        }
+    }
+    .blog-text {
+        width: 300px;
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+}
